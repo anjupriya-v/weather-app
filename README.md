@@ -12,7 +12,7 @@
 
 ### API Used for getting the weather of Current City : RapidApI (ip-geolocation)
 
-### :point_down:Steps to initialize the project:
+## :point_down:Steps to initialize the project:
 
 - Clone the repository
 ```
