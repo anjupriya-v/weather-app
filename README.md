@@ -1,4 +1,5 @@
-# Weather App
+# ⛅ Weather App
+
 ## Developed using Node.js (Express.js)
 
 ## Live Demo Video:
@@ -7,11 +8,11 @@
   Your browser does not support the video tag.
 </video>
 
-## API Used for getting the weather of any city : OpenWeatherMap Api https://openweathermap.org/
+### API Used for getting the weather of any city : OpenWeatherMap Api https://openweathermap.org/
 
-## API Used for getting the weather of Current City : RapidApI (ip-geolocation)
+### API Used for getting the weather of Current City : RapidApI (ip-geolocation)
 
-## :point_down:Steps to initialize the project:
+### :point_down:Steps to initialize the project:
 
 - Clone the repository
 ```
