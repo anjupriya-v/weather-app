@@ -1,0 +1,64 @@
+body {
+  background-image: url("");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 0.9em;
+  }
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.weatherIcon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+.inputField, .modalContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.weatherCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px!important;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit !important;
+  overflow: hidden;
+}
+.weatherCard::before {
+  content: "";
+  position: absolute;
+  background: inherit!important;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5)!important;
+  filter: blur(10px)!important;
+  margin: -20px;
+}
+.navBar {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}

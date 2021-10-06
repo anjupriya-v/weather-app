@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent navBar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="/Images/weatherLogo.png" width="50px" height="50px"
+          alt="navbarImage" /><span class="ml-2 appName"> Weather App</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel" style="color: black;text-shadow: none;">Weather App</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body modalContent">
+          <img src="/Images/weatherLogo.png" width="50px" height="50px" alt="modalImage" />
+          <h3 style="color: black;text-shadow: none;" class="mt-3">Developed with ❤️ by Anju Priya V</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
